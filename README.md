@@ -36,5 +36,5 @@ When data changes or expires, it should be removed from the cache to ensure that
 
 # To do
 
-1. Implement a function to cache all articles fetched from the data source. est by fetching multiple articles and verifying that they are all cached.
-2. Implement a function to generate cache keys based on query parameters and cache articles accordingly. Test by making requests with different query parameters and ensuring that articles are cached based on those parameters.
+1. Implement a function to generate cache keys based on query parameters and cache articles accordingly. Test by making requests with different query parameters and ensuring that articles are cached based on those parameters.
+2. Implement a mechanism to invalidate cached articles based on certain events (e.g., article updates, deletions). Test by updating or deleting articles and ensuring that the cache is invalidated accordingly.
