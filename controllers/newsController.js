@@ -1,4 +1,4 @@
-const { cache, generateCacheKey } = require('../utils/cacheUtils');
+const { cache, generateCacheKey, invalidateCachedArticle } = require('../utils/cacheUtils');
 const mockNewsArticles = require('../data/mockNewsArticles');
 
 // Function to fetch a news article by ID

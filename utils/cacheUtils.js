@@ -1,7 +1,6 @@
 const NodeCache = require('node-cache');
-
-// Initialize cache with a default TTL (Time To Live) of 1 hour
-const cache = new NodeCache({ stdTTL: 3600 });
+// Initialize cache with a default TTL (Time To Live) of 5 seconds
+const cache = new NodeCache({ stdTTL: 5 });
 
 // Function to generate cache key for a news article
 const generateCacheKey = (articleId) => {
